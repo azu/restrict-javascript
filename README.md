@@ -8,6 +8,8 @@ This validation library aim to define limited JavaScript subset.
 That subset will be safe by default.
 Safe means that does not call any untrusted function.
 
+## Do
+
 Validate following untrusted function calls and get errors. 
 
 ```js
