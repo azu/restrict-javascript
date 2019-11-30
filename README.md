@@ -31,6 +31,8 @@ This validation does not provide sandbox feature.
 It means that the code can refer to any object like `window` by default.
 In other hands, `__proto__` and `construsctor` is restricted by default. 
 
+This validation will be used with [vm](https://nodejs.org/api/vm.html) modules.
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
