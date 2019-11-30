@@ -1,0 +1,15 @@
+{
+    "ok": false,
+    "errors": [
+        {
+            "id": "DISALLOW_CONSTRUCTOR_LOOKUP",
+            "line": 1,
+            "column": 2
+        },
+        {
+            "id": "DISALLOW_CONSTRUCTOR_LOOKUP",
+            "line": 2,
+            "column": 0
+        }
+    ]
+}

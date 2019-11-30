@@ -1,0 +1,2 @@
+a.constructor;
+a["constructor"];

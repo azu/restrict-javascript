@@ -1,0 +1,110 @@
+{
+    "ok": false,
+    "errors": [
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 1,
+            "column": 0
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 1,
+            "column": 6
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 2,
+            "column": 0
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 2,
+            "column": 6
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 3,
+            "column": 0
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 3,
+            "column": 6
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 5,
+            "column": 0
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 5,
+            "column": 6
+        },
+        {
+            "id": "DISALLOW_UNTRUSTED_METHOD_CALL",
+            "line": 5,
+            "column": 12
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 5,
+            "column": 12
+        },
+        {
+            "id": "DISALLOW_UNTRUSTED_METHOD_CALL",
+            "line": 5,
+            "column": 23
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 5,
+            "column": 23
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 5,
+            "column": 23
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 7,
+            "column": 0
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 7,
+            "column": 6
+        },
+        {
+            "id": "DISALLOW_UNTRUSTED_METHOD_CALL",
+            "line": 7,
+            "column": 12
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 7,
+            "column": 12
+        },
+        {
+            "id": "DISALLOW_UNTRUSTED_METHOD_CALL",
+            "line": 7,
+            "column": 28
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 7,
+            "column": 28
+        },
+        {
+            "id": "DISALLOW_UNTRUSTED_METHOD_CALL",
+            "line": 7,
+            "column": 44
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 7,
+            "column": 44
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "ok": false,
+    "errors": [
+        {
+            "id": "DISALLOW__PROTO__LOOKUP",
+            "line": 1,
+            "column": 2
+        },
+        {
+            "id": "DISALLOW__PROTO__LOOKUP",
+            "line": 2,
+            "column": 0
+        }
+    ]
+}

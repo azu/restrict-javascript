@@ -1,0 +1,1 @@
+window.trustme = 1;

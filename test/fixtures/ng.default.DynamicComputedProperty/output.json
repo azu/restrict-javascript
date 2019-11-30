@@ -1,0 +1,10 @@
+{
+    "ok": false,
+    "errors": [
+        {
+            "id": "DISALLOW_UNTRUSTED_DYNAMIC_PROPERTY_REFERENCE",
+            "line": 1,
+            "column": 0
+        }
+    ]
+}

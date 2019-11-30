@@ -1,0 +1,10 @@
+{
+    "ok": false,
+    "errors": [
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 1,
+            "column": 4
+        }
+    ]
+}

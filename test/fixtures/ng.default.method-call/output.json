@@ -1,0 +1,15 @@
+{
+    "ok": false,
+    "errors": [
+        {
+            "id": "DISALLOW_UNTRUSTED_METHOD_CALL",
+            "line": 1,
+            "column": 0
+        },
+        {
+            "id": "DISALLOW_NODE_TYPE",
+            "line": 1,
+            "column": 0
+        }
+    ]
+}

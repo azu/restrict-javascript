@@ -1,0 +1,81 @@
+{
+  "name": "restrict-javascript",
+  "version": "1.0.0",
+  "description": "Define restrict JavaScript syntax and validate it.",
+  "keywords": [
+    "ast",
+    "javascript",
+    "js",
+    "restrict",
+    "safe",
+    "subset",
+    "validate",
+    "validator"
+  ],
+  "homepage": "https://github.com/azu/restrict-javascript",
+  "bugs": {
+    "url": "https://github.com/azu/restrict-javascript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/restrict-javascript.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/restrict-javascript.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha \"test/**/*.ts\"",
+    "updateSnapshot": "UPDATE_SNAPSHOT=1 npm test",
+    "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "watch": "tsc -p . --watch",
+    "prepublish": "npm run --if-present build",
+    "clean": "rimraf lib/"
+  },
+  "devDependencies": {
+    "@types/lodash.ismatch": "^4.4.6",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
+    "cross-env": "^6.0.3",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.5.4",
+    "ts-node-test-register": "^8.0.1",
+    "typescript": "^3.7.2",
+    "espree": "^6.1.2"
+  },
+  "dependencies": {
+    "@types/estree": "^0.0.40",
+    "estree-walker": "^1.0.0",
+    "lodash.ismatch": "^4.4.0"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "printWidth": 120,
+    "tabWidth": 4
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "types": "lib/.d.ts"
+}
