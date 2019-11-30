@@ -1,6 +1,6 @@
 {
   "name": "restrict-javascript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Define restrict JavaScript syntax and validate it.",
   "keywords": [
     "ast",
